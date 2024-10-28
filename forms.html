@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>My Website</title>
+
+</head>
+<body>
+    
+    <form>
+        
+        <div>
+        <label for="ilkad">İsim</label>
+        <input type="text" id="ilkad" name="ilkad" placeholder="Yusuf" required>
+        </div>
+
+        <br>
+        
+        <div>
+        <label for="soyad">Soyisim</label>
+        <input type="text" id="soyad" name="soyad" placeholder="Ökmen" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+
+        <br>
+        
+        <div>
+        <label for="pass">Şifre</label>
+        <input type="text" id="pass" name="password" placeholder="***" required maxlength="15" minlength="5">
+        </div>
+        
+        <br>
+        
+        <div>
+        <label for="mail">email:</label>
+        <input type="email" id="mail" name="mail" placeholder="yusufokkmen@gmail.com" required>
+        </div>
+                
+        <br>
+        
+        <div>
+        <label for="tele">telefon:</label>
+        <input type="tel" id="tele" name="telefon" placeholder="0(500) 000 0000 " required>
+        </div>
+                    
+        <br>
+        
+        <div>
+        <label for="birth">birthdate:</label>
+        <input type="date" id="bdate" name="bdate" required>
+        </div>
+                    
+        <br>
+        
+        <div>
+        <label for="qtity">quantity:</label>
+        <input type="number" id="qtity" name="qtity" max="99" min="0" value="1" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title">Title: </label>
+
+            <label for="bey">Bay</label>
+            <input type="radio" id="bey" name="Gender" value="Bay">
+
+            <label for="hanım">Bayan</label>
+            <input type="radio" id="hanım" name="Gender" value="Bayan">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">payment:</label>
+            <select name="pay" id="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Master Card</option>
+                <option value="giftcard">Giftcard</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="sub">Subscribe</label>
+            <input type="checkbox" id="sub" name="Subscribe" required>
+    </form>
+
+</body>
+</html>
